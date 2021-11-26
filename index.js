@@ -1,12 +1,3 @@
-const express = require("express")
-const app = express()
-
-app.get("/", (req, res) => {
-  res.send("hello hello")
-})
-app.listen(3000, () => {
-  console.log("Online")
-})
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { token } = require('./config.json');
